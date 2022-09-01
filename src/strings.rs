@@ -107,7 +107,7 @@ pub fn get_strings_code(){
 
     //pero acceder a un solo indice o a un numero de bytes que no es multiplo de 2, resulta en un panic en tiempo de ejecucion
     //por lo que se debe de tener cuidado al crear string slices con rangos, ya que puede ocasionar un program crashing
-    let s = &hello[0..1]; //manda un error en tiempo de ejecucion
+    //let s = &hello[0..1]; //manda un error en tiempo de ejecucion
 
     //la mejor forma de operar con partes de un String es ser explicito si se quiere obtener chars o bytes
     //los graphemes salen del alcance de la libreria estandar y dicha funcionalidad se encuentra en crates.Into

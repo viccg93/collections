@@ -81,6 +81,7 @@ fn main() {
     //nota: Vector es un tipo generico
 
     hashmaps::get_hashmaps_code();
+    strings::get_strings_code();
 }
 
 //modulo strings

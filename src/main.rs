@@ -79,7 +79,12 @@ fn main() {
     //al igual que cualquier otro struct, las instancias vector se liberan al salir de scope y se invalidad sus referencias
 
     //nota: Vector es un tipo generico
+
+    hashmaps::get_hashmaps_code();
 }
 
 //modulo strings
 mod strings;
+
+mod hashmaps;
+
